@@ -35,7 +35,7 @@ public class Spring2020StudyApplication implements CommandLineRunner {
 
     }
 
-    @Primary
+
     @Bean
     @ConfigurationProperties("foo.datasource")
     public DataSourceProperties getFooDataSourceProperties() {
