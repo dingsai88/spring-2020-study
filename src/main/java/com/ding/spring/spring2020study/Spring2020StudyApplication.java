@@ -26,6 +26,7 @@ public class Spring2020StudyApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
+        log.info(dataSource.toString());
         showData();
         showConnection();
 
